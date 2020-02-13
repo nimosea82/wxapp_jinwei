@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="logo-title">
+    <image src="/images/index-title.png" mode="cover"></image>
+  </view>
+ 
+  <view class="logo-image">
+    <image class="logo-avatar" src="/images/logo.png" ></image>
+  </view>
+
+  <view  class="logo-bottom" >
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" plain="true"> 
+      <cover-image  src="/images/enter-button.png" /> 
+      </button>
+    <block wx:else>
+      <view class="logo-bottom-image" bindtap="logoin">    
+        <image src="/images/enter-button.png" ></image>
+      </view>
+    </block>
+
+
+
+    <view class="logo-bottom-text">
+        <text>学生作业发布小程序</text>
+     
+    </view>
+</view>
+</view>

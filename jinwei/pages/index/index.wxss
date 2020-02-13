@@ -1,0 +1,82 @@
+/**index.wxss**/
+.container{
+
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+}
+
+button[plain]
+{ 
+  border:0;
+
+}
+
+
+.logo-title {
+  padding: 50rpx;
+  height: 200rpx;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.logo-title image{
+  height: 200rpx;
+  width: 660rpx;
+  
+}
+
+.logo-image{
+  height: 400rpx;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.logo-image image{
+  width: 400rpx;
+  height: 400rpx;
+
+}
+
+
+
+.logo-bottom {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+.logo-bottom-image {
+  height: 200rpx;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.logo-bottom-image image{
+  height: 130rpx;
+  width: 300rpx;
+}
+
+
+.logo-bottom-text {
+  height: 100rpx;
+  width: 100%;
+  color: #aaa;
+  text-align: center;
+  font-size: small;
+}
+
